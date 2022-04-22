@@ -78,25 +78,25 @@ WSGI_APPLICATION = 'ostram.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'bank',
-#         'USER':'brian',
-#         'PASSWORD':'12345'
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'ddk7p322gdh529',
-        'USER':'qrzusrxpygtlqc',
-        'PASSWORD':'09ed751fcbf168684e9b6101783e03ca8a644b486e0694dde30e7b5aaf94f68e',
-        'HOST':'ec2-54-80-123-146.compute-1.amazonaws.com',
-        'PORT':'5432',
+        'NAME': 'bank',
+        'USER':'brian',
+        'PASSWORD':'12345'
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME':'ddk7p322gdh529',
+#         'USER':'qrzusrxpygtlqc',
+#         'PASSWORD':'09ed751fcbf168684e9b6101783e03ca8a644b486e0694dde30e7b5aaf94f68e',
+#         'HOST':'ec2-54-80-123-146.compute-1.amazonaws.com',
+#         'PORT':'5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
